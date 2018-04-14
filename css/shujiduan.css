@@ -1,0 +1,187 @@
+/*
+* @Author: lenovo
+* @Date:   2018-03-21 10:32:25
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-03-23 15:13:12
+*/
+body{
+	background: #f9f9f9;
+	height: 30rem;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 0.53rem;
+	background: #212121;
+}
+.head_left{
+	width: 1.26rem;
+	height: 0.29rem;
+/* 	background: red; */
+	float: left;
+	margin-top: 0.12rem;
+	margin-left: 0.2rem;
+}
+/* .head_left i{
+	float: left;
+	font-size: 0.3rem;
+	color: #fff; */
+/* } */
+.head_left img{
+	display: block;
+	width: 1.2rem;
+}
+.header_right{
+	width: 0.26rem;
+	height: 0.16rem;
+	/* background: red; */
+	float: right;
+	margin: 0.19rem 0.19rem 0 0;
+}
+.header_right span{
+	display: block;
+	width: 100%;
+	height: 0.02rem;
+	background: #585858;
+	margin-bottom: 0.05rem;
+}
+.header_right span:last-child{
+	margin-bottom: 0;
+}
+.banner{
+	width: 4rem;
+	height: 5.63rem;
+	background: blue;
+}
+.img_list{
+	width: 100%;
+	height: auto;
+}
+.img_list li{
+	width: 100%;
+	height: 2.5rem;
+	background: #000;
+	border-bottom: 0.01rem solid #fff;
+}
+.img_list li a{
+	display: block;
+	width: 100%;
+	height: 2.5rem;
+
+}
+.img_list li a.list1{
+	background:url('../img/1.jpg') no-repeat center/cover;
+}
+.img_list li a.list2{
+	background:url('../img/2.jpg') no-repeat center/cover;
+}
+.img_list li a.list3{
+	background:url('../img/3.jpg') no-repeat center/cover;
+}
+.img_list li a.list4{
+	background:url('../img/4.jpg') no-repeat center/cover;
+}
+.img_list li a h1{
+	font-size: 0.18rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.26rem;
+	margin-top: 0.22rem;
+}
+.img_list li a h2{
+	font-size: 0.18rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.26rem;
+}
+.list2{
+	background: url('../img/2.jpg')no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.fuwu_box{
+	width: 3.6rem;
+	height: 1.52rem;
+/* 	background: red; */
+	margin: 0.2rem auto 0;
+}
+.fuwu_box li{
+	float: left;
+	width: 100%;
+	height: 0.37rem;
+	border-bottom: 0.01rem solid #cccccc;
+}
+.fuwu_box li .left{
+	font-size: 0.14rem;
+	color: #666666;
+	float: left;
+	line-height: 0.37rem;
+	font-weight: bold;
+}
+.fuwu_box li .right{
+	font-size: 0.14rem;
+	color: #666666;
+	float: right;
+	line-height: 0.37rem;
+	margin-right: 0.09rem;
+	font-weight: bold;
+}
+.xinxi_box{
+	width: 3.9rem;
+	height: 1.27rem;
+	/* background: pink; */
+	border-bottom: 0.01rem solid #e2e2e2;
+	overflow: hidden;
+}
+.xinxi_box h1{
+	font-size: 0.14rem;
+	color: #333333;
+	line-height: 0.25rem;
+	margin-top: 0.2rem;
+	text-align: center;
+}
+.xinxi_box h2{
+	font-size: 0.13rem;
+	color: #666666;
+	line-height: 0.25rem;
+	text-align: center;
+}
+.xinxi_box h3{
+	font-size: 0.12rem;
+	color: #666666;
+	line-height: 0.19rem;
+	text-align: center;
+}
+.dibu_box{
+	width: 100%;
+	height: 1.44rem;
+	/* background: pink; */
+	border-bottom: 0.01rem solid #e2e2e2;
+	overflow: hidden;
+}
+.dibu_box h1{
+	font-size: 0.12rem;
+	color: #aaacae;
+	margin: 0.18rem 0 0 0.15rem;
+	float: left;
+}
+.dibu_box h2{
+	font-size: 0.12rem;
+	color: #aaacae;
+	margin: 0.08rem 0 0 0.15rem;
+	float: left;
+}
+.dibu_box h3{
+	font-size: 0.12rem;
+	color: #aaacae;
+	margin: 0.08rem 0 0 0.15rem;
+	float: left;
+}
